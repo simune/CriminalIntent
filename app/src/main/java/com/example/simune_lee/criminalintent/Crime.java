@@ -20,6 +20,7 @@ public class Crime {
     private static final String JSON_SOLVED = "solved";
     private static final String JSON_DATE = "data";
 
+    //初始化Crime
     public Crime()
     {
         mId = UUID.randomUUID();

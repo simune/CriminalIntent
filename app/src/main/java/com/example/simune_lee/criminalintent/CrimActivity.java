@@ -19,6 +19,7 @@ public class CrimActivity extends SingleFragmentActivity {
     }
 
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -32,5 +33,10 @@ public class CrimActivity extends SingleFragmentActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public boolean Test()
+    {
+        return false;
     }
 }
